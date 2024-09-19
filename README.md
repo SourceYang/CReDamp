@@ -4,11 +4,11 @@ This repository simulates the distribution of cosmic ray electrons within the in
 
 Ensure you have Python 3 installed on your system. You may also need to install the required Python packages. It's recommended to use a virtual environment.
 
-```bash
+```
 # Clone the repository
 git clone https://github.com/SourceYang/CReDamp.git
 cd CReDamp
-```bash
+```
 
 To execute all related scripts with default redshift and energy resolution, along with source model settings, use the following command:
 
