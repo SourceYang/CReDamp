@@ -8,10 +8,11 @@ Ensure you have Python 3 installed on your system. You may also need to install 
 # Clone the repository
 git clone https://github.com/SourceYang/CReDamp.git
 cd CReDamp
+```bash
 
 To execute all related scripts with default redshift and energy resolution, along with source model settings, use the following command:
 
-```bash
+```
 python exe.py --deltalin0 <value> --z <value>
 ```
 
