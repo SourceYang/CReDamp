@@ -62,12 +62,12 @@ Generates five `.npy` files containing various physical quantities (row index fo
 Generates damping rate data and visualizations:
 
 - **CSV Files:**
-  - `damp_rate_largek_{z}_{deltalin0}.csv`: Damping rates for \( k = 0.8 \) to \( 5 \times \omega_p/c \).
-  - `damp_rate_zoomk_{z}_{deltalin0}.csv`: Damping rates for \( k = 0.995 \) to \( 1.1 \times \omega_p/c \).
+  - `damp_rate_largek_{z}_{deltalin0}.csv`: Damping rates for k = 0.8 to 5 times omega_p/c.
+  - `damp_rate_zoomk_{z}_{deltalin0}.csv`: Damping rates for k = 0.995 to 1.1 times omega_p/c.
 
 - **Figures:**
-  - `damp_rate_largek_{z}_{deltalin0}.pdf`: Plot for large \( k \) range.
-  - `damp_rate_zoomk_{z}_{deltalin0}.pdf`: Plot for zoomed \( k \) range.
+  - `damp_rate_largek_{z}_{deltalin0}.pdf`: Plot for large k range.
+  - `damp_rate_zoomk_{z}_{deltalin0}.pdf`: Plot for zoomed k range.
 
 ## Default Settings
 
