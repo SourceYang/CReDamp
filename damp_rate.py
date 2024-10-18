@@ -139,6 +139,7 @@ def main(args):
 
     df = pd.DataFrame({
         'k': k,
+        'k_norm': k/(omega_p/c),
         'rate': -rate
         })
     df.to_csv(f'{args.savePATH}/damp_rate_largek_{z}_{deltalin0}.csv')
@@ -161,6 +162,7 @@ def main(args):
 
     df = pd.DataFrame({
         'k': k,
+        'k_norm': k/(omega_p/c),
         'rate': -rate
         })
     df.to_csv(f'{args.savePATH}/damp_rate_zoomk_{z}_{deltalin0}.csv')
