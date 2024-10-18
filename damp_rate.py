@@ -89,6 +89,7 @@ def main(args):
     def get_rate(k):
         if k<=omega_p/c: return 0
         E_min = E_e * ((1 - omega_p**2 / c**2 / k**2)**(-0.5) - 1)
+        if E_min > np.max(IGM_00.E): return 0
     
         n_e_th = n_e
         co1 = -np.pi / 4 * omega_p * (omega_p / c / k)**3 * E_e / n_e_th
@@ -98,6 +99,7 @@ def main(args):
         else:
             index_E1 = np.where(IGM_00.E < E_min)[-1][-1]
         index_E2 = np.where(IGM_00.E > E_min)[0][0]
+        if index_E2 == args.mstep: return 0
         N_Emin = (N[index_E2][index_z] - N[index_E1][index_z])/(IGM_00.E[index_E2]-IGM_00.E[index_E1]
                                                      ) * (E_min-IGM_00.E[index_E1]) + N[index_E1][index_z]
     
