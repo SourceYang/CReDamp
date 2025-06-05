@@ -97,4 +97,4 @@ Generates damping rate data and visualizations:
 
 ## Contact
 
-For questions or support, please contact [Yuanyuan Yang](mailto:yang.4904@buckeyemail.osu.edu).
+For questions or support, please contact [Yuanyuan Yang](mailto:yang.yuanyu@northeastern.edu).
